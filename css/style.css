@@ -61,7 +61,7 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
   font-size: 14px;
-  background-color: f5f5f5;
+  background-color: #f5f5f5;
 }
 
 .container {
@@ -77,7 +77,7 @@ body {
   padding-bottom: 94px;
 }
 
-/* HEADER*/
+/*========================== HEADER ================================= */
 
 .header {
   border-bottom: 1px solid #ECECEC;
@@ -95,7 +95,7 @@ body {
 
 }
 
-/* LOGO */
+/*========================== lOGO ================================= */
 .logo{
 font-family: var(--secondary-font);
 font-weight: 700;
@@ -114,7 +114,7 @@ color: var(--primary-text-color);
   color: var(--accent-color);
 }
 
-/* LIST-NAV*/
+/*========================== LIST-NAV ================================= */
 .list-nav {
   display: flex;
   column-gap: 50px;
@@ -129,7 +129,7 @@ color: var(--primary-text-color);
   display: block;
   padding: 32px 0;
   color: var(--primary-text-color);
-  transition: var(--transition-dur-and-func);
+  transition: color var(--transition-dur-and-func);
 }
 
 .list-nav .link:hover,
@@ -156,7 +156,7 @@ color: var(--primary-text-color);
 }
 
 
-/* CONTACT-LIST  */
+/*========================== LIST-C0NTACT ============================*/
 .list-contact {
   display: flex;
   align-items: center;
@@ -181,7 +181,7 @@ letter-spacing: 0.02em;
 padding: 32px 0;
 color: var(--secondary-text-dark-color);
 
-transition: var(--transition-dur-and-func);
+transition: color var(--transition-dur-and-func);
 }
 
 .list-contact .link:hover,
@@ -190,7 +190,7 @@ transition: var(--transition-dur-and-func);
 }
 
 
-/* CONTACTS-ICONS */
+/* ====================== CONTACTS-ICONS ============================= */
 
 .contacts-icons-mailtu {
   height: 12px;
@@ -208,9 +208,11 @@ transition: var(--transition-dur-and-func);
     
 }
 
+/*========================== /HEADER ================================= */
+
   
 
-/* HERO */
+/* ========================= HERO ===================================== */
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
@@ -241,7 +243,7 @@ transition: var(--transition-dur-and-func);
   color: var(--primary-text-light-color);
 }
 
-/* HERO BTN */
+/* ==================================== HERO BTN =============================================*/
 
 .btn-hero {
   font-family: inherit;
@@ -286,7 +288,9 @@ transition: var(--transition-dur-and-func);
   color: var(--primary-text-color);
 }
 
-/* ADVANTAGES */
+/* ========================= /HERO ===================================== */
+
+/* ========================== ADVANTAGES =============================== */
 
 .visually-hidden {
   position: absolute;
@@ -340,7 +344,9 @@ transition: var(--transition-dur-and-func);
   color: var(--secondary-text-dark-color)
 }
 
-/* WORK */
+/* ========================== /ADVANTAGES =============================== */
+
+/* =========================== WORK ===================================== */
 
 .work {
   padding-top: 0;
@@ -351,7 +357,7 @@ transition: var(--transition-dur-and-func);
   column-gap: 30px ;
 }
 
-/* WORK-OVERLAY */
+/* ========================= WORK-OVERLAY ================================ */
 
 .work-overlay {
   position: relative;
@@ -376,9 +382,9 @@ transition: var(--transition-dur-and-func);
   background: rgba(47, 48, 58, 0.8);
 }
 
+/* =========================== /WORK ===================================== */
 
-
-/* TEAM */
+/* =========================== TEAM ====================================== */
 
 .team {
   padding-top: 94px;
@@ -419,7 +425,7 @@ transition: var(--transition-dur-and-func);
   color: var(--secondary-text-dark-color)
 }
 
-/* SOCIAL-LINC */
+/* =============================== SOCIAL-LINC ================================================ */
 
 .social-list {
   display: flex;
@@ -457,8 +463,10 @@ transition: var(--transition-dur-and-func);
   fill:#ffffff ;
 } 
 
+/* =========================== TEAM ====================================== */
 
-/* CUSTOMERS */
+
+/* ================================= CUSTOMERS ============================================== */
 
 .customers-title {
   font-weight: 700;
@@ -516,7 +524,7 @@ transition: var(--transition-dur-and-func);
   
 }
 
-
+/* ============================ /CUSTOMERS =========================== */
 
 
 /*==================================
@@ -572,7 +580,7 @@ transition: var(--transition-dur-and-func);
   border-radius: 4px;
 }
 
- /* PORTFOLIO IMG */
+ /* ========================================= PORTFOLIO IMG ========================================== */
 
 .list-portfolio {
   display: flex;
@@ -622,7 +630,7 @@ transition: var(--transition-dur-and-func);
   color: var(--secondary-text-dark-color);
 }
 
-/* PORTFOLIO-OVERLAY */
+/* ==================================  PORTFOLIO-OVERLAY =============================================== */
 
 .protfolio-overlay {
     position: relative;
@@ -653,7 +661,11 @@ transition: var(--transition-dur-and-func);
   transform: translateY(0%);
 }
 
-/* FOOTER*/
+/*==================================
+ /PORTFOLIO 
+ ==================================*/
+
+/*================================================ FOOTER ==========================================*/
 
 .footer {
   padding-top: 60px;
@@ -719,7 +731,7 @@ transition: var(--transition-dur-and-func);
 }
 
 
-/* FOOTER-SOCIAL */
+/*==================================================== FOOTER-SOCIAL ================================*/
 
 .footer-social {
   margin-left: 70px;
@@ -788,7 +800,90 @@ transition: var(--transition-dur-and-func);
   fill:#ffffff;
 }
 
-/* MODAL-BACKDROP */
+/* =========================FOOTER-FORM============================================================== */
+.subscription {
+  margin-left: auto;
+}
+
+.footer-form {
+  display: flex;
+  
+}
+
+.footer-title-form {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: var(--primary-text-light-color);
+
+}
+
+.footer-form-input {
+  width: 358px;
+  height: 50px;
+  padding-left: 16px;
+  color: var(--primary-text-light-color);
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: var(--primary-dark-background-color);
+  transform: border var(--transition-dur-and-func);
+}
+
+.footer-form-input:focus {
+  outline: none;
+  border: 1px solid var(--accent-color);
+}
+
+.footer-form-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+
+}
+
+/* ================================FOOTER-FORM-BTN============================ */
+
+.footer-form-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  margin-left: 12px;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.18;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: var(--primary-text-light-color);
+
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 4px;
+  transform: background-color var(--transition-dur-and-func);
+}
+
+.footer-form-btn:hover,
+.footer-form-btn:focus {
+  background-color:#188CE8
+}
+
+
+.footer-icon-btn {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  fill: var(--primary-background-color);
+}
+/* =================================================== /FOOTER==================================*/
+
+
+/* =================================================BACKDROP ============================*/
 
 .backdrop {
   position: fixed;
@@ -807,7 +902,7 @@ transition: var(--transition-dur-and-func);
   opacity: 0;
   pointer-events: none;
 }
-
+/* ================================================MODAL============================= */
 .modal {
   position: absolute;
   top: 50%;
@@ -815,6 +910,8 @@ transition: var(--transition-dur-and-func);
   transform: translate(-50%, -50%);
   width: 528px;
   height: 581px;
+
+  padding: 40px;
   background-color:#ffffff;
 }
 
@@ -822,18 +919,198 @@ transition: var(--transition-dur-and-func);
   position: absolute;
   top: 8px;
   right: 8px;
+
   display: flex;
   align-items: center;
   justify-content: center;
+
   width: 30px;
   height: 30px;
+  fill: #000000 ;
   background-color: transparent;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   padding: 0;
+  transform: fill var(--transition-dur-and-func);
+}
+
+.modal-cose-btn:hover .modal-icon-close,
+.modal-close-btn:focus .modal-icon-close{
+  fill: var(--accent-color)
 }
 
 .modal-icon-close {
+  fill: #000000;
   width: 11px;
   height: 11px;
 }
+
+/*======================MODAL-FORM======================================== */
+
+.modal-title {
+font-weight: 700;
+font-size: 20px;
+line-height: 1.15;
+text-align: center;
+margin-bottom: 12px;
+
+color: var(--primary-text-dark-color);
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-lable {
+margin-bottom: 10px;
+}
+
+.modal-input-fild {
+  display: block;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  margin-bottom: 4px;
+
+  color: var(--secondary-text-dark-color);
+}
+
+.modal-input {
+  width: 100%;
+  padding: 12px 0;
+  padding-left: 42px;
+  background: #FFFFFF;
+  cursor: pointer;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  transition: border-color var(--transition-dur-and-func);
+}
+
+
+.modal-input:focus {
+  border: 1px solid var(--accent-color);
+  outline: none;
+}
+
+.modal-form-icon {
+  display: block;
+  position: relative;
+
+}
+
+.input-icon {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  fill: var(--primary-text-dark-color);
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  transition: fill  var(--transition-dur-and-func);
+}
+
+.modal-input:focus + .input-icon{
+  fill: var(--accent-color);
+  outline: none;
+}
+
+.modal-textarea {
+  width: 100%;
+  height: 120px;
+  padding: 12px 0;
+  padding-left: 16px;
+  background: #FFFFFF;
+  cursor: pointer;
+  resize: none;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  transition: border-color var(--transition-dur-and-func);
+}
+
+.modal-textarea:focus {
+  outline: none;
+  border-color: var(--accent-color);
+}
+
+.modal-textarea::placeholder {
+  font-size: 12px;
+  line-height: 1.16
+  letter-spacing: 0.01em;
+
+  color: rgba(117, 117, 117, 0.5);
+}
+
+/*==============CHECKBOX============================================== */
+.modal-checkbox-field {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--secondary-text-dark-color);
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+
+.modal-checkbox  {
+  appearance: none ;
+}
+
+.icon-checkbox-active {
+  display: none;
+}
+
+.icon-checkbox {
+  width: 15px;
+  height: 14px;
+  border: 1px solid var(--primary-text-dark-color);
+  margin-right: 7px;
+  border-radius: 2px;
+}
+
+.modal-checkbox:checked + .icon-checkbox {
+  background-color: var(--accent-color);
+  fill: var(--primary-text-light-color);
+}
+
+.modal-checkbox:checked + .icon-checkbox .icon-checkbox-active {
+  display: block;
+  position: absolute;
+}
+
+.checkbox-link {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--accent-color);
+}
+
+/*====================================== MODAL-FORM-BTN=============================================*/
+
+.modal-form-btn {
+  width: 200px;
+  height: 50px;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.18;
+
+  align-self: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: var(--primary-text-light-color);
+
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 4px;
+  transform: background-color var(--transition-dur-and-func);
+}
+
+.modal-form-btn:hover,
+.modal-form-btn:focus {
+  background-color:#188CE8
+}
+
+
