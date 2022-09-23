@@ -915,11 +915,10 @@ transition: color var(--transition-dur-and-func);
   background-color:#ffffff;
 }
 
-.modal-cose-btn {
+.modal-close-btn {
   position: absolute;
   top: 8px;
   right: 8px;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -934,13 +933,13 @@ transition: color var(--transition-dur-and-func);
   transform: fill var(--transition-dur-and-func);
 }
 
-.modal-cose-btn:hover .modal-icon-close,
-.modal-close-btn:focus .modal-icon-close{
-  fill: var(--accent-color)
+.modal-close-btn:hover .modal-icon-close,
+.modal-close-btn:focus .modal-icon-close {
+  fill: var(--accent-color);
 }
 
 .modal-icon-close {
-  fill: #000000;
+  fill: 1px solid ;
   width: 11px;
   height: 11px;
 }
@@ -966,6 +965,10 @@ color: var(--primary-text-dark-color);
 margin-bottom: 10px;
 }
 
+.modal-lable-textarea {
+  margin-bottom: 20px;
+}
+
 .modal-input-fild {
   display: block;
   font-size: 12px;
@@ -978,6 +981,7 @@ margin-bottom: 10px;
 
 .modal-input {
   width: 100%;
+  height: 40px;
   padding: 12px 0;
   padding-left: 42px;
   background: #FFFFFF;
@@ -999,23 +1003,32 @@ margin-bottom: 10px;
 
 }
 
-.input-icon {
+.form-input-icon {
   position: absolute;
   top: 50%;
   left: 12px;
-  fill: var(--primary-text-dark-color);
   transform: translateY(-50%);
+  fill: var(--primary-text-dark-color);
   width: 18px;
   height: 18px;
   transition: fill  var(--transition-dur-and-func);
 }
 
-.modal-input:focus + .input-icon{
+.modal-input:focus + .form-input-icon{
   fill: var(--accent-color);
   outline: none;
 }
 
+.input-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+
+}
+
 .modal-textarea {
+  display: block;
   width: 100%;
   height: 120px;
   padding: 12px 0;
@@ -1043,6 +1056,7 @@ margin-bottom: 10px;
 
 /*==============CHECKBOX============================================== */
 .modal-checkbox-field {
+  justify-content: center;
   font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-text-dark-color);
@@ -1064,7 +1078,7 @@ margin-bottom: 10px;
 .icon-checkbox {
   width: 15px;
   height: 14px;
-  border: 1px solid var(--primary-text-dark-color);
+  border: 2px solid var(--primary-text-dark-color);
   margin-right: 7px;
   border-radius: 2px;
 }
