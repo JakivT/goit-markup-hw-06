@@ -1004,6 +1004,9 @@ margin-bottom: 10px;
 }
 
 .form-input-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: 50%;
   left: 12px;
@@ -1020,11 +1023,9 @@ margin-bottom: 10px;
 }
 
 .input-icon {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  display: block;
-
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 
 .modal-textarea {
