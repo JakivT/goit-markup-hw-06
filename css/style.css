@@ -61,7 +61,7 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
   font-size: 14px;
-  background-color: #f5f5f5;
+  background-color: #FFFFFF;
 }
 
 .container {
@@ -69,7 +69,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
-  padding-right: 15PX;
+  padding-right: 15px;
 }
 
 .section {
@@ -223,7 +223,7 @@ transition: color var(--transition-dur-and-func);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #2F303A;
+  background-color: #C4C4C4;
 }
 
 .hero-title {
